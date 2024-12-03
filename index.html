@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destock - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <button id="menu-button">☰</button>
+            <h1>Destock</h1>
+        </div>
+    </header>
+    <main>
+        <section class="search-section">
+            <h2>Encontre o que procura</h2>
+            <form>
+                <input type="text" placeholder="Digite o nome do produto" required>
+                <select>
+                    <option value="">Selecione uma categoria</option>
+                    <option value="roupas">Roupas</option>
+                    <option value="estetica">Estética</option>
+                    <option value="saude">Saúde</option>
+                    <option value="pet">Pet</option>
+                    <option value="livros">Livros</option>
+                    <option value="ferramentas">Ferramentas</option>
+                </select>
+                <label>
+                    <input type="checkbox"> Somente promoções
+                </label>
+                <input type="text" placeholder="Digite sua localização" required>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+        <section class="carousel">
+            <h2>Produtos em Destaque</h2>
+            <div class="carousel-container">
+                <div class="carousel-item">
+                    <img src="img/produto1.jpg" alt="Produto 1">
+                    <p>Produto 1</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/produto2.jpg" alt="Produto 2">
+                    <p>Produto 2</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/produto3.jpg" alt="Produto 3">
+                    <p>Produto 3</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Destock</p>
+    </footer>
+</body>
+</html>

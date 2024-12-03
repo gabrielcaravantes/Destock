@@ -1,0 +1,344 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body e Fundo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff7e6; /* Fundo amarelo claro */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #ffc107; /* Amarelo principal */
+    color: white;
+}
+
+.menu button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+/* Seções Gerais */
+section {
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #ffc107; /* Borda amarela */
+}
+
+/* Home - Busca */
+.search-section h2 {
+    margin-bottom: 1rem;
+}
+
+.search-section form input,
+.search-section form select,
+.search-section form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-section form button {
+    background: #ffc107;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Home - Carrossel */
+.carousel h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+}
+
+.carousel-item {
+    min-width: 200px;
+    padding: 1rem;
+    background: #fff7e6; /* Fundo amarelo claro */
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-item p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Conta - Informações */
+.account-info,
+.edit-account {
+    padding: 1rem;
+    margin: 1rem;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #ffc107;
+}
+
+.account-info h2,
+.edit-account h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.user-info p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.user-info p strong {
+    color: #ffc107;
+}
+
+/* Conta - Formulário */
+.edit-account form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.edit-account form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.edit-account form input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.edit-account form button {
+    padding: 0.8rem;
+    background: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Sacola - Itens */
+.cart-items .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.cart-items .item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ffc107;
+}
+
+.cart-items .item-info p {
+    margin: 0.2rem 0;
+}
+
+.cart-items .remove-item {
+    background: #e53935;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.cart-items .remove-item:hover {
+    background: #b71c1c;
+}
+
+/* Sacola - Resumo */
+.cart-summary {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cart-summary p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.cart-summary .checkout-button {
+    padding: 1rem;
+    background: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ffc107;
+    color: white;
+}
+
+/* Categorias */
+.categories {
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #ffc107;
+    text-align: center;
+}
+
+.categories h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.category {
+    text-align: center;
+    padding: 1rem;
+    background: #fff7e6;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.category p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Galeria */
+.gallery {
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #ffc107;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-item {
+    background: #fff7e6;
+    border: 2px solid #ffc107;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ffc107;
+    color: white;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .carousel .product {
+        min-width: 300px;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    form {
+        max-width: 600px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: 100px;
+    }
+}
