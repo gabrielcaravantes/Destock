@@ -84,6 +84,7 @@ section {
 
 .carousel-item {
     min-width: 200px;
+    max-width: 400px;
     padding: 1rem;
     background: #fff7e6; /* Fundo amarelo claro */
     border: 2px solid #ffc107;
@@ -216,14 +217,6 @@ section {
     font-size: 1.2rem;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #ffc107;
-    color: white;
-}
-
 /* Categorias */
 .categories {
     margin: 1rem;
@@ -259,8 +252,8 @@ footer {
 }
 
 .category img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     margin-bottom: 0.5rem;
 }
@@ -308,6 +301,11 @@ footer {
     width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+.desconto{
+    font-size: larger;
+    color: #b71c1c;
 }
 
 
