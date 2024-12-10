@@ -118,7 +118,7 @@ section {
     padding: 1rem;
     background: white;
     border-radius: 5px;
-    border: 2px solid #ffc107; /* Borda amarela */
+    border: 2px solid #ffc107;
 }
 
 /* Home - Busca */
@@ -163,7 +163,7 @@ section {
     min-width: 200px;
     max-width: 400px;
     padding: 1rem;
-    background: #fff7e6; /* Fundo amarelo claro */
+    background: #fff7e6;
     border: 2px solid #ffc107;
     border-radius: 5px;
     text-align: center;
