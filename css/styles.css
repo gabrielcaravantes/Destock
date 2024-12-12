@@ -26,7 +26,7 @@ a {
     letter-spacing: 4px;
   }
   
-  nav {
+ .menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
